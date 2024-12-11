@@ -3,6 +3,8 @@ import Navbar from './componentes/Navbar'
 import Hero from './componentes/Hero'
 import Footer from './componentes/Footer'
 import Logo from './componentes/Logo'
+import Product from './componentes/Product'
+import SingleProduct from './componentes/SingleProduct'
 import FeaturedProducts from './componentes/FeatuerProduct'
 import Categories from './componentes/Categories'
 import OurProduct from './componentes/AllCard'
@@ -19,6 +21,8 @@ const page = () => {
    <FeaturedProducts/>
    <Categories/>
    <OurProduct/>
+   <Product/>
+   <SingleProduct/>
    <Footer/>
 
    

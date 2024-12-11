@@ -18,6 +18,8 @@ const FeaturedProducts = () => {
                 <Image
                   src={product.image}
                   alt={product.name}
+                  width={100}
+                  height={150}
                   className="w-full h-[312px] object-cover"
                 />
                 {product.tag && (
